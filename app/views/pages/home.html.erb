@@ -1,7 +1,48 @@
 <div class="jumbotron center">
-	<h1>Welcome to Swell MD!</h1>
-	<p>
-		<%= link_to "Log in", "#", class: "btn btn-default btn-lg" %>
-    <%= link_to "Sign up", "#", class: "btn btn-primary btn-lg" %>
-	</P>
+	<h1>Happy Patients. Happy Practice.</h1>
+		<p>Creating a better patient experience through automated communications.</p>
+		<% if user_signed_in? %>
+			<h3>Welcome to the application!</h3>
+		<% else %>	
+			<p>Click here to
+		    <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+		<% end %>	
+			</P>
 </div>
+<div class= "container center">
+	<h2>Free up staff and keep patients in the loop with automated text messages.</h2>
+<div class= "invisible">
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam  </p>
+</div>  
+</div>
+<div class= "visibility-hidden"></div>
+<div class="row">
+  <div class="col-xs-4 col-md-4">
+  	<img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/xxcjucfi0ylsp9ujfec7.png" class="img-responsive center-block" alt=s"Responsive image">
+  	<h2 class="text-center">Office Delays</h2>
+  	<p class="text-center">Give patients the option to wait outside the waiting room with automated texts alerting them of delays.</p>
+  </div>
+  <div class="col-xs-4 col-md-4">
+  	<img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/qdaziqjwz77fvaaci10n.png" class="img-responsive center-block" alt="Responsive image">
+  	<h2 class="text-center">Appointment Confirmations</h2>
+  	<p class="text-center">Reduce staff calling time with automated text confirmations.</p>
+  </div>
+    <div class="col-xs-4 col-md-4">
+  	<img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/r3n5vfohnmxupl1oe5rb.png" class="img-responsive center-block" alt="Responsive image">
+  	<h2 class="text-center">Fill Open Slots</h2>
+  	<p class="text-center">Last minute cancellation? Find patients to keep your schedule filled.</p>
+  </div>
+</div>
+<hr></hr>
+<div class= "container center">
+
+  <h1>Communicate the way your patients want to.</h1>
+  <h3>No app necessary.</h3>
+
+</div>
+<div class= "invisible">
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam </p>
+</div>  
+<footer>
+  <li><%=link_to "About", about_path %></li>
+</footer>
