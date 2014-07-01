@@ -1,0 +1,20 @@
+/*!
+Need below line for corrupt fonts to work with glyphicons
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+Need below classes added:
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto };
+
+*/
