@@ -1,39 +1,125 @@
-<div class="jumbotron center">
-	<h1>Happy Patients. Happy Practice.</h1>
-		<% if user_signed_in? %>
-			<h3>Welcome to the application!</h3>
-		<% else %>	
-			<p>Click here to
-		    <%= link_to "Sign up", new_user_registration_path, class: "btn btn-danger btn-lg" %>
-		<% end %>	
-			</P>
-</div>
-<div class= "container center">
-	<h2>Free up staff and keep patients in the loop with automated text messages.</h2>
-  <div style="col-xs-12; height:70px; background-color:#ffffff"></div>
-</div>
-<div class="row">
-  <div class="col-xs-4 col-md-4">
-  	<img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/xxcjucfi0ylsp9ujfec7.png" class="img-responsive center-block" alt=s"Responsive image">
-  	<h2 class="text-center">Office Delays</h2>
-  	<p class="text-center">Give patients the option to wait outside the waiting room with automated texts alerting them of delays.</p>
+<div class="container">
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <div class="jumbotron center">
+        <h1>
+          Happy Patients. Happy Practice.
+        </h1>
+        <% if user_signed_in? %>
+          <h2>Welcome to the application!</h2>
+        <% else %>
+          <p>Click here to
+        <%= link_to "Sign up", new_user_registration_path, class: "btn btn-danger btn-lg" %>
+        <% end %>
+      </div>
+    </div>
   </div>
-  <div class="col-xs-4 col-md-4">
-  	<img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/qdaziqjwz77fvaaci10n.png" class="img-responsive center-block" alt="Responsive image">
-  	<h2 class="text-center">Appointment Confirmations</h2>
-  	<p class="text-center">Reduce staff calling time with automated text confirmations.</p>
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <h1 class="center">
+        Free up staff and keep patients in the loop with automated text messages.
+      </h1>
+    </div>
   </div>
-    <div class="col-xs-4 col-md-4">
-  	<img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/r3n5vfohnmxupl1oe5rb.png" class="img-responsive center-block" alt="Responsive image">
-  	<h2 class="text-center">Fill Open Slots</h2>
-  	<p class="text-center">Last minute cancellation? Find patients to keep your schedule filled.</p>
+  <div class="row clearfix">
+    <div class="col-md-4 column">
+      <img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/xxcjucfi0ylsp9ujfec7.png" class="img-responsive center-block" alt=s"Responsive image">
+      <h2 class="center">
+        Office Delays
+      </h2>
+      <h4 class="center">
+        Give patients the option to wait outside the waiting room with automated texts alerting them of delays.
+      </h4>
+    </div>
+    <div class="col-md-4 column">
+      <img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/qdaziqjwz77fvaaci10n.png" class="img-responsive center-block" alt="Responsive image">
+      <h2 class="center">
+        Appointment Confirmations
+      </h2>
+      <h4 class="center">
+        Reduce staff calling time with automated text confirmations.
+      </h4>
+    </div>
+    <div class="col-md-4 column">
+      <img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/r3n5vfohnmxupl1oe5rb.png" class="img-responsive center-block" alt="Responsive image">
+      <h2 class="center">
+        Fill Open Slots
+      </h2>
+      <h4 class="center">
+        Last minute cancellation? Find patients to keep your schedule filled.
+      </h4>
+    </div>
   </div>
-</div>
-<hr></hr>
-<div class= "container center">
 
-  <h1>Communicate the way your patients want to.</h1>
-  <h3>No app necessary.</h3>
+  <hr></hr>
 
+  <div class="row clearfix center">
+    <h2>Communicate the way your patients want to.</h2>
+    <h4 style="padding-bottom: 50px">No app necessary.</h4>
+  </div>
+  </div>
+
+  <hr style="border-top: 0px solid #ffffff;"></hr>
+
+  <div class="row clearfix center">
+    </div>
+        <div class="col-md-1 column">
+    </div>
+    <div class="col-md-5 column">
+      <img alt="140x140" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/f3xkmr6kjbctc7hlfm86.png" />
+    </div>
+    <div class="col-md-5 column">
+      <h2 style="padding-top:100px"class="center">
+        A little communication goes a long way.
+      </h2>
+      <h4 class="center">
+        Most patients simply want to be kept in the loop when their doctor is running behind schedule. Keep them updated and give the option of waiting outside the waiting room for a better patient experience.
+      </h4>
+    </div>
+        <div class="col-md-1 column">
+    </div>
+  </div>
+    </div>
+        <div class="col-md-3 column">
+    </div>
+    <div class="col-md-6 column"> 
+      <h2 style="padding-top:50px" class="center">
+        Heading
+      </h2>
+      <h4 class="center">
+        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+      </h4>
+      <p>
+        <a class="btn" href="#">View details »</a>
+      </p>
+    </div>
+    </div>
+        <div class="col-md-3 column">
+    </div>
+  </div>
+  <div class="row clearfix">
+    <div class="col-md-4 column">
+    </div>
+    <div class="col-md-4 column">
+      <form role="form">
+        <div class="form-group">
+           <label for="exampleInputEmail1">Email address</label><input type="email" class="form-control" id="exampleInputEmail1" />
+        </div>
+        <div class="form-group">
+           <label for="exampleInputPassword1">Password</label><input type="password" class="form-control" id="exampleInputPassword1" />
+        </div>
+        <div class="form-group">
+           <label for="exampleInputFile">File input</label><input type="file" id="exampleInputFile" />
+          <p class="help-block">
+            Example block-level help text here.
+          </p>
+        </div>
+        <div class="checkbox">
+           <label><input type="checkbox" /> Check me out</label>
+        </div> <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+    <div class="col-md-4 column">
+    </div>
+  </div>
 </div>
-<div style="col-xs-12; height:70px; background-color:#ffffff"></div>
